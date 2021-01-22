@@ -1,0 +1,18 @@
+﻿<Window
+    x:Class="WinUI.DesktopApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WinUI.DesktopApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBox Header="X" x:Name="txtX"/>
+        <TextBox Header="Y" x:Name="txtY"/>
+        <TextBox Header="Width" x:Name="txtWidth"/>
+        <TextBox Header="Height" x:Name="txtHeight"/>
+        <Button Content="Apply" Click="Button_Click"/>
+        <Button Content="Center on screen" Click="Button_Click_1"/>
+    </StackPanel>
+</Window>
